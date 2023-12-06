@@ -1,0 +1,121 @@
+a{ text-decoration: none;}
+a:hover{text-decoration: underline;}
+a,
+a:hover
+a:visited
+a:active
+{color: white;}
+
+#allwrap{padding: 95px 0 0 0;}
+
+#header_1 ul,
+#header_2 ul
+{list-style: none;}
+
+#header_1 ul li,
+#header_2 ul li
+{display: inline-block;}
+
+#header_1 .wrap,
+#header_2 .wrap,
+footer
+{ width:1032px; margin:0 auto; overflow:hidden;}
+
+header{ position:fixed; width:100%; padding-bottom:15px; font-family: 'Aldrich', sans-serif; font-size:15px;}
+
+#header_1{ background:#000;}
+#header_1 h1{ 
+    width:158px; height:44px; float:left;
+}
+#header_1 h1 a{ 
+    width:158px; 
+    height:44px; 
+    display:block; 
+    text-indent:-9999px; 
+    overflow:hidden; 
+    background:url(../img/logo_white.png);
+    background-size: 90%; 
+    background-repeat: no-repeat;
+}
+#header_1 h1 a:hover{background-color:gray ;}
+
+#header_1 ul,
+#header_2 ul
+ { display:block; float: right ; padding-top:12px}
+ #header_2 ul{ padding-top:0px;}
+ 
+ #header_1 ul li
+{ margin-left:30px;} 
+
+ #header_1 ul li a{ opacity:1; text-decoration:none;}
+ #header_1 ul li a:hover{text-decoration: underline;}
+
+#header_2 ul li
+{ margin-left:15px;} 
+
+#profile ul{list-style:none}
+
+#profile ul li{display: inline-block;}
+
+#profile ul{
+     display:block;
+     padding:12px 0 0 0;
+}
+
+#profile ul li{ 
+    font-size: 25px;
+    margin-left:15px;
+    text-align: center;
+}
+
+.photo{
+    background-image: url(../img/artist-phots.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 400px;
+}
+
+#icon{
+    margin-bottom: 100px;
+    padding: 0px 50px 40px 475px;
+    size: 50%;
+}
+
+#icon_2{
+    width: 100px;
+    border: solid black;
+    border-radius: 50%;
+}
+
+#icon_3{
+    margin: 150px 150px 0px 250px;
+    width: 800px;
+    height: 600px;
+}
+
+.container{
+    background-color: white;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 100px 30px 60px 30px;
+    box-sizing: border-box;
+}
+
+.container_1{
+    background-color: white;
+    width: 800px;
+    margin: 0 auto;
+    padding: 0 30px 60px 30px;
+    box-sizing: border-box;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 11px;
+}
