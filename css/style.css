@@ -1,33 +1,80 @@
-a{ text-decoration: none;}
-a:hover{text-decoration: underline;}
+a{ 
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
 a,
-a:hover
-a:visited
-a:active
-{color: white;}
+a:hover,
+a:visited,
+a:active{
+    color: white;
+}
 
-#allwrap{padding: 95px 0 0 0;}
+/* #allwrap{padding: 95px 0 0 0;} */
 
+<<<<<<< HEAD
 #header-menu ul,
-#header-sns ul
-{list-style: none;}
+#header-sns ul{
+    list-style: none;
+}
 
 #header-menu ul li,
-#header-sns ul li
-{display: inline-block;}
+#header-sns ul li{
+    display: inline-block;
+}
 
 #header-menu .wrap,
 #header-sns .wrap,
+footer{
+     width:1032px; 
+     margin:0 auto; 
+     overflow:hidden;
+}
+
+header{ 
+    position:fixed;
+    width:100%;
+    padding-bottom:15px; 
+    font-family: 'Aldrich', sans-serif; 
+    font-size:15px;
+}
+
+#header-menu{ 
+    background:#000;
+}
+
+#header-menu h1{ 
+    width:158px; 
+    height:44px; 
+    float:left;
+}
+
+#header-menu h1 a{ 
+=======
+#header_1 ul,
+#header_2 ul
+{list-style: none;}
+
+#header_1 ul li,
+#header_2 ul li
+{display: inline-block;}
+
+#header_1 .wrap,
+#header_2 .wrap,
 footer
 { width:1032px; margin:0 auto; overflow:hidden;}
 
 header{ position:fixed; width:100%; padding-bottom:15px; font-family: 'Aldrich', sans-serif; font-size:15px;}
 
-#header-menu{ background:#000;}
-#header-menu h1{ 
+#header_1{ background:#000;}
+#header_1 h1{ 
     width:158px; height:44px; float:left;
 }
-#header-menu h1 a{ 
+#header_1 h1 a{ 
+>>>>>>> parent of 26f3041 (correction)
     width:158px; 
     height:44px; 
     display:block; 
@@ -37,30 +84,69 @@ header{ position:fixed; width:100%; padding-bottom:15px; font-family: 'Aldrich',
     background-size: 90%; 
     background-repeat: no-repeat;
 }
-#header-menu h1 a:hover{background-color:gray ;}
+<<<<<<< HEAD
+
+#header-menu h1 a:hover{
+    background-color:gray ;
+}
 
 #header-menu ul,
-#header-sns ul
- { display:block; float: right ; padding-top:12px}
- #header-sns ul{ padding-top:0px;}
+#header-sns ul{ 
+    display:block; 
+    float: right ; 
+    padding-top:12px
+}
+
+#header-sns ul{ 
+    padding-top:0px;
+}
  
- #header-menu ul li
-{ margin-left:30px;} 
+#header-menu ul li{ 
+    margin-left:30px;
+} 
 
- #header-menu ul li a{ opacity:1; text-decoration:none;}
- #header-menu ul li a:hover{text-decoration: underline;}
+#header-menu ul li a{ 
+    opacity:1; text-decoration:none;
+}
 
-#header-sns ul li{margin-left:15px;} 
+#header-menu ul li a:hover{
+    text-decoration: underline;
+}
 
-#logo{
+#header-sns ul li{
+    margin-left:15px;
+} 
+
+.logo{
     width: 30px;
     height: 30px;
     object-fit: cover;
 }
+=======
+#header_1 h1 a:hover{background-color:gray ;}
 
-#profile ul{list-style:none}
+#header_1 ul,
+#header_2 ul
+ { display:block; float: right ; padding-top:12px}
+ #header_2 ul{ padding-top:0px;}
+ 
+ #header_1 ul li
+{ margin-left:30px;} 
 
-#profile ul li{display: inline-block;}
+ #header_1 ul li a{ opacity:1; text-decoration:none;}
+ #header_1 ul li a:hover{text-decoration: underline;}
+
+#header_2 ul li
+{ margin-left:15px;} 
+>>>>>>> parent of 26f3041 (correction)
+
+#profile ul{
+    list-style:none
+}
+
+#profile ul li{
+    display: inline-block;
+}
 
 #profile ul{
      display:block;
