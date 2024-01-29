@@ -150,7 +150,7 @@ header{
 
 .container{
     background-color: white;
-    width: 1000px;
+    width: 70%;
     margin: 0 auto;
     padding: 100px 30px 60px 30px;
     box-sizing: border-box;
@@ -158,7 +158,7 @@ header{
 
 .container_1{
     background-color: white;
-    width: 800px;
+    width: 70%;
     margin: 0 auto;
     padding: 0 30px 60px 30px;
     box-sizing: border-box;
@@ -179,54 +179,107 @@ footer{
  
 	/*　画面サイズが480px以下の場合ここの記述が適用される　*/
 
+
+body{
+    text-align: center;
+}
+
+ul{
+    padding-inline-start: 0%;
+}
+
 #header-menu .wrap,
 #header-sns .wrap,
 footer{
-    width: 100%;
-    margin:0; 
-    overflow:hidden;
+     width:100%; 
+     overflow:hidden;
 }
 
-div{
-    margin: 0;
+#header-menu h1{ 
+    width:30%;
+    margin: 10px auto;
     padding: 0;
-    border:0;
-    outline: 0;
+    float:none;
 }
 
-div{
-    display: block;
+#header-menu ul,
+#header-sns ul{ 
+    background-color: white;
+    display:block; 
+    float: none ; 
+    padding-top:12px
 }
 
-header{ 
-    position:fixed;
-    width:100%;
-    padding-bottom:15px; 
-    font-family: 'Aldrich', sans-serif; 
-    font-size:15px;
+#header-menu ul{
+    margin: 0 ;
 }
 
-body{
+#header-sns ul{ 
+    padding-top:0px;
+}
+ 
+#header-menu ul li{ 
+    background-color: #000;
+    width: 40%;
+    margin:0 5px 5px 5px;
     padding: 0;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 12px;
-    line-height: 1.5em;
+} 
+
+.logo{
+    width: 30px;
+    height: 30px;
 }
 
 .photo{
-    background-image: url(../img/artist-phots.jpeg);
-    background-size: 100%;
     background-repeat: no-repeat;
-    background-position: center;
-    padding-top: 100px;
+    padding-top: 500px;
 }
 
 #icon{
-    margin-bottom: 100px;
-    padding: 0;
-    size: 50%;
+    width: 50%;
+    height: 50%;
+    padding:0;
 }
 
+#icon_2{
+    width: 100px;
+    border: solid black;
+    border-radius: 50%;
+}
 
+#icon_3{
+    margin: 150px auto 0px;
+    width: 800px;
+    height: 600px;
+}
+
+.biophoto{
+    text-align: center;
+}
+
+.container{
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px 30px 60px 30px;
+    box-sizing: border-box;
+}
+
+.container_1{
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    padding: 0 30px 60px 30px;
+    box-sizing: border-box;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 11px;
 }
