@@ -139,9 +139,13 @@ header{
 }
 
 #icon_3{
-    margin: 150px 150px 0px 250px;
+    margin: 150px auto 0px;
     width: 800px;
     height: 600px;
+}
+
+.biophoto{
+    text-align: center;
 }
 
 .container{
