@@ -176,89 +176,88 @@ footer{
     font-size: 11px;
 }
 
-@media screen and (max-width:599px) {
+    @media screen and (max-width:599px) {
  
 	/*　画面サイズが599px以下の場合ここの記述が適用される　*/
 
-
-body{
+    body{
     text-align: center;
-}
+    }
 
-ul{
+    ul{
     padding-inline-start: 0%;
-}
+    }
 
-#header-menu .wrap,
-#header-sns .wrap,
-footer{
-     width:100%; 
-     overflow:hidden;
-}
+    #header-menu .wrap,
+    #header-sns .wrap,
+    footer{
+        width:100%; 
+        overflow:hidden;
+    }
 
-#header-menu h1{ 
+    #header-menu h1{ 
     width:30%;
     margin: 10px auto;
     padding: 0;
     float:none;
-}
+    }
 
-#header-menu ul,
-#header-sns ul{ 
+    #header-menu ul,
+    #header-sns ul{ 
     background-color: white;
     display:block; 
     float: none ; 
     padding-top:12px
-}
+    }
 
-#header-menu ul{
+    #header-menu ul{
     margin: 0 ;
-}
+    }
 
-#header-sns ul{ 
+    #header-sns ul{ 
     margin: 0;
     padding-top:10px;
-}
- 
-#header-menu ul li{ 
+    }
+
+    #header-menu ul li{ 
     background-color: #000;
     width: 40%;
     margin:0 5px 5px 5px;
     padding: 0;
-} 
+    } 
 
-.logo{
+    .logo{
     width: 30px;
     height: 30px;
-}
+    }
 
-.photo{
+    .photo{
     padding-top: 300px;
     padding-bottom: 0;
     background-position: bottom ;
     background-repeat: no-repeat;
-}
+    }
 
-#icon{
+    #icon{
     padding:0;
-}
+    }
 
-#icon_2{
+    #icon_2{
     float: inline-start;
     width: 50px;
-}
+    }
 
-#icon_3{
+    #icon_3{
     width: 100%;
     height: 100%;
-}
+    }
 
-.biophoto{
+    .biophoto{
     padding-top: 100px;
-}
+    }
 
-.container{
+    .container{
     padding: 300px 30px 0px 30px;
-}
+    }
 
 }
